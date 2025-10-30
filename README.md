@@ -7,6 +7,7 @@ This repository hosts a static portfolio site suitable for GitHub Pages. It was 
 1. Open `index.html` in your browser to preview locally.
 2. Edit content in `index.html`, styles in `styles.css`, and scripts in `script.js`.
 3. Add images to the `assets/` folder and reference them relatively (e.g., `./assets/profile.jpg`).
+4. Favicon: replace `assets/favicon.svg` with your own if desired, and ensure the `<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">` in `index.html` points to it.
 
 ## Deploy on GitHub Pages
 
