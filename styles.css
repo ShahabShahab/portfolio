@@ -13,6 +13,14 @@ body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarel
 .hero-content{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
 .hero-text h1{font-size:3rem;margin-bottom:.5rem;font-weight:700;line-height:1.2}
 .hero-text h1 .highlight{color:#f39c12;text-shadow:2px 2px 4px rgba(0,0,0,.3)}
+.gradient-text{background:linear-gradient(135deg,#ffd166,#f39c12 30%,#ff6b6b 70%,#ffd166);-webkit-background-clip:text;background-clip:text;color:transparent}
+.intro-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(10px);color:#fff;padding:.4rem .75rem;border-radius:999px;font-size:.8rem;margin-bottom:1rem}
+.intro-subtitle{font-size:1.05rem;margin:1rem 0 1.5rem;opacity:.95;line-height:1.7;max-width:600px}
+.social-links{display:flex;gap:.8rem;margin-top:1.2rem}
+.social-links a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.15);color:#fff;text-decoration:none;font-weight:700;border:1px solid rgba(255,255,255,.25);transition:all .2s ease}
+.social-links a:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.15)}
+.intro-highlights{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1.2rem}
+.chip{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.25);padding:.35rem .75rem;border-radius:999px;font-size:.78rem}
 .hero-text h2{font-size:1.3rem;margin-bottom:1.2rem;font-weight:300;opacity:.9}
 .hero-text p{font-size:1.05rem;margin-bottom:2rem;opacity:.9;line-height:1.6}
 .hero-buttons{display:flex;gap:1rem;flex-wrap:wrap}
